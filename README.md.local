@@ -224,10 +224,14 @@ RUN npm run build
 - Run 'npx convex dev' to run the Convex dev server
 - Run 'npx convex deploy' to deploy the Convex dev server to production
 
-# Run functions
+# Prod functions
+- Run 'npx convex run --prod --no-push init:init' to init the world.
 - Run 'npx convex run --prod --no-push init:seed' to seed the world
 - Run 'npx convex run --prod --no-push init:reset' to reset the world
 - Run 'npx convex run --prod --no-push init:resetFrozen' to reset the world and freeze it
+
+# Prod clear tables
+- Run 'npx convex run --prod testing:debugClearAll --no-push' to clear all tables
 
 ## Customize your own simulation
 NOTE: every time you change character data, you should re-run `npx convex run testing:debugClearAll --no-push` and then `npm run dev` to re-upload everything to Convex. This is because character data is sent to Convex on the initial load. However, beware that `npx convex run testing:debugClearAll --no-push` WILL wipe all of your data, including your vector store.

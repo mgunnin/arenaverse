@@ -5,7 +5,7 @@ import localFont from 'next/font/local';
 import clsx from 'clsx';
 
 export const metadata = {
-  title: 'ARENAVERSE',
+  title: 'Lacra Labs Arenaverse',
   description: 'A virtual world where AI Athletes compete for glory and riches.',
 };
 
