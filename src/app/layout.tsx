@@ -5,8 +5,8 @@ import localFont from 'next/font/local';
 import clsx from 'clsx';
 
 export const metadata = {
-  title: 'AI Town',
-  description: 'A virtual town where AI characters live, chat and socialize',
+  title: 'ARENAVERSE',
+  description: 'A virtual world where AI Athletes compete for glory and riches.',
 };
 
 const fontDisplay = localFont({
